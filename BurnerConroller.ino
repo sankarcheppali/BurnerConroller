@@ -8,7 +8,7 @@ A0- M1 (motor1 speed contol)
 A2- M2
 A3- battery voltage 
 
-PIN 2 - Motor 1(L293D 2 pin,7th pin to ground) 
+PIN 11 - Motor 1(L293D 2 pin,7th pin to ground) 
 PIN 3 - Motor 2(L293D 15th Pin,10th pin to ground)
 
 Battery level in 4 leds, battery is 12v so we have to use
@@ -18,7 +18,7 @@ a voltage devider (1/4)
 >11V- PIN6
 >12.5V- PIN7
 */
-#define M1O 2
+#define M1O 11
 #define M2O 3
 #define bl1 4
 #define bl2 5
